@@ -13,10 +13,10 @@
                            class="<?= urlIs('/') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
                         <a href="/about" aria-current="page"
                            class="<?= urlIs('/about') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
-                        <?php if ($_SESSION['user'] ?? false): ?>
-                            <a href="/notes" aria-current="page"
-                               class="<?= urlIs('/notes') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Notes</a>
-                        <?php endif ?>
+<!--                        --><?php //if ($_SESSION['user'] ?? false): ?>
+<!--                            <a href="/notes" aria-current="page"-->
+<!--                               class="--><?php //= urlIs('/notes') ? 'bg-gray-900 text-white' : 'text-gray-300' ?><!-- text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Notes</a>-->
+<!--                        --><?php //endif ?>
                         <a href="/contact" aria-current="page"
                            class="<?= urlIs('/contact') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
                     </div>
