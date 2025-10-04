@@ -26,7 +26,7 @@
                 <div class="ml-4 flex items-center md:ml-6">
                     <button type="button"
                             class="relative rounded-full p-1 text-gray-400 hover:text-white focus:outline-2 focus:outline-offset-2 focus:outline-indigo-500">
-                        <span class="absolute -inset-1.5"></span>
+<!--                        <span class="absolute -inset-1.5"></span>-->
                         <span class="sr-only">View notifications</span>
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon"
                              aria-hidden="true" class="size-6">
